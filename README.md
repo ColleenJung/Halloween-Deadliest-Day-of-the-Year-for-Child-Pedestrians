@@ -1,20 +1,41 @@
-## DC-Weather-Data_EDA
-# Exploring Weather Data with Vector Auto Regression Model, PCA, and K-Means Clustering
+# Halloween: Deadliest Day of the Year for Child Pedestrians
 
-## About the Dataset
-### Context
-This dataset has been curated to provide a comprehensive overview of weather patterns, facilitating predictive analysis for future weather conditions.
+## Project Overview
 
-### Content
-The dataset includes historical and projected weather data spanning from October 1, 2010, to October 31, 2023.
+The "Halloween: Deadliest Day of the Year for Child Pedestrians" project was an initiative presented at the Hackathon Fall 2023. Our team focused on addressing the heightened risk of pedestrian fatalities, particularly among children, on Halloween night. By leveraging data science and machine learning, we aimed to develop a system that could provide real-time monitoring and predictive insights to enhance child safety during this high-risk period.
 
-## Key Techniques
-This project utilizes the following key techniques and concepts:
+## Goals
 
-- **Vector Auto Regression Model**: A VAR model is a statistical technique used for modeling the relationships between multiple time series variables. In this context, it aids in understanding the dependencies and trends in weather data over time.
+The primary goal of this project was to offer the DC School Board actionable educational resources for implementing a real-time monitoring system. These systems are designed to deliver live updates and alerts to parents, guardians, and children about potential risks in the vicinity, especially during Halloween.
 
-- **Principal Component Analysis (PCA)**: PCA is a dimensionality reduction technique. It helps identify patterns and reduce the complexity of high-dimensional data, allowing for more efficient analysis and visualization.
+Refer to the project summary image from Hackathon Fall 2023 for a detailed breakdown of our project goals, data sets, methodologies, limitations, and future extensions.
 
-- **K-Means Clustering**: K-Means is a clustering algorithm that groups similar data points together. It can be applied to weather data to identify clusters of similar weather patterns, aiding in forecasting and understanding regional trends.
+## Data Sets and Methodology
 
-These techniques are leveraged to gain valuable insights from the weather data, enabling better understanding and prediction of future weather conditions.
+Our methodology was structured and data-driven, relying on the following datasets:
+
+- **Historical Data**: DC Weather Data (2010-2023), DC Crash Data (2000-2020)
+- **Real-time Data**: DC Weather Data, DC Metro Data (API)
+
+We applied a combination of data exploration, Principal Component Analysis (PCA), and machine learning techniques on these datasets to develop a robust prediction model.
+
+## Machine Learning Model
+
+For the machine learning aspect, we implemented a comprehensive approach using both supervised and unsupervised learning techniques. The models included:
+
+- Logistic Regression
+- Random Forest Classification
+- K-means Clustering
+- PCA Analysis
+
+These models were trained and tuned to predict the probability of accidents with an emphasis on Halloween night, which historically has seen a spike in pedestrian fatalities.
+
+## Results
+
+Our machine learning model predicted a 26.83% chance of accidents on October 31, 2023. This prediction was based on real-time streaming API data, coupled with over a decade of historical weather and transportation data from the DC area.
+
+## Conclusion and Future Work
+
+The project identified key areas for future development, including the creation of mobile applications to provide real-time safety information and safer route suggestions during the Halloween weekend.
+
+For more details on the project's scope, limitations, and proposed future extensions, please refer to the accompanying project pdf from the Hackathon Fall 2023.
